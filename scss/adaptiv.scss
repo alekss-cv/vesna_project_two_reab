@@ -1,0 +1,272 @@
+@media (max-width: 1410px){
+  .green_big_icon{
+    position: absolute;
+    max-width: 100px;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+  }
+  .two_top_stages_block_flex{
+    margin-bottom: 30px;
+  }
+  .p_block_icon_informational{
+    @include paragraph_font;
+    max-width: 700px;/////////////////////////////////////////////////////////
+    border-radius: 15px;
+    background: var(--Color, #FFF);
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.25);
+    padding:40px 20px 20px 120px ; ////////////////////////////////////////////////////////////////
+  }
+  //.stages_block_flex{
+  //  display: flex;
+  //  justify-content: space-between;
+  //  gap: 150px;
+  //}
+  .green_big_icon_1{
+  }
+  .section_need_rehabilitation_img{
+    display: none;
+  }
+  .img_quote{
+
+  }
+  .events_ul_top{
+    padding-left: 15px;
+    margin-bottom: -10px;
+  }
+  .events_ul_bottom{
+    padding-left: 15px;
+  }
+}
+@media (max-width: 1200px) {
+  .h2{
+    font-size: 42px;
+  }
+  .h3{
+    font-size: 42px;
+  }
+  .section_need_rehabilitation_title{
+    font-size: 42px;
+  }
+  .routine_title{
+
+  }
+  .target_title{
+    font-size: 42px;
+  }
+  .role_title{
+    font-size: 42px;
+  }
+  .section_events_title{
+    font-size: 42px;
+  }
+  .section_conclusion_title{
+    font-size: 42px;
+  }
+  .section_gallery_title{
+    font-size: 42px;
+  }
+  .map_title{
+    font-size: 42px;
+  }
+  .head_nav{
+    padding-top: 15px;
+    padding-bottom: 30px;
+    background-color: rgb(#3E3E3E , 0.5);
+    margin-bottom: 110px;
+  }
+  .head_ul_li{
+    height: 100%;
+    @include max_width;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    align-items: center;
+    column-gap: 30px;
+  }
+  .head_li{
+    @include paragraph_font;
+    font-size: 13px;
+    line-height: 15px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    border-bottom: 2px #FFFFFF solid;
+    width: 100%;
+  }
+  .section_blockquote{
+    border-radius: 10px;
+    border-top: 2px solid rgba(105, 178, 51, 0.40);
+    border-bottom: 2px solid rgba(105, 178, 51, 0.40);
+    background: var(--Color, #FFF);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+    margin-bottom: 110px;
+    align-items: center;
+    flex-direction: column;
+  }
+  .h3_blockquote{
+    @include little_headlines_font;
+    font-size: 40px;
+    text-align: center;
+  }
+  blockquote{
+    @include paragraph_font;
+    max-width: 100% ;
+  }
+  .b_supervisor{
+    @include little_headlines_font;
+    font-size: 16px;
+    text-align: center;
+    padding: 0;
+  }
+  .img_supervisor{
+    width: 100%;
+    height: 100%;
+    //width: 609px;
+    //height: 410px;
+    border-radius: 5px;
+  }
+  .img_quote{
+    width: 532px;
+    height: 191px;
+    position: absolute;
+    top: 1300px;
+    display: none;
+  }
+  .p_map_top{
+    max-width: 690px;
+    @include paragraph_font;
+    padding-bottom: 30px;
+  }
+}
+.routine_list{
+  padding: 60px 0 60px 0;
+  display: flex;
+  justify-content: space-around;
+  gap: 60px;
+}
+.routine_li{
+  @include paragraph_font;
+  line-height: 30px;
+  color: #FFFFFF;
+  position: relative;
+  font-size: 13px;
+}
+.routine_li::before{
+  content: url("../img/check_mark_little.svg");
+  max-width: 20px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: -20px;
+  top: 2px;
+}
+@media (max-width: 1024px) {
+  .img_supervisor{
+    min-width: 0;
+    width: 100%;
+    height: 100%;
+    //width: 609px;
+    //height: 410px;
+    border-radius: 5px;
+  }
+  .stages_block_flex{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+  .p_block_icon_informational{
+    @include paragraph_font;
+    max-width: 100%;/////////////////////////////////////////////////////////
+    border-radius: 15px;
+    background: var(--Color, #FFF);
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.25);
+    padding:60px 20px 20px 120px ; ////////////////////////////////////////////////////////////////
+  }
+  .section_map{
+    flex-direction: column;
+  }
+  .p_map_top{
+    max-width: 100%;
+    @include paragraph_font;
+    padding-bottom: 60px;
+  }
+  .p_map_bottom{
+    max-width: 100%;
+    @include paragraph_font;
+  }
+  .section_map_block_img{
+
+  }
+  .section_map_img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 100%;
+  }
+  .target_block_img{
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    display: none;
+  }
+  .target_img{
+    margin: 0 auto;
+    width: 100%;
+  }
+  .role_block_flex{
+    display: grid;
+    grid-template-columns: 1fr ;
+    gap: 60px;
+  }
+  .role_img{
+    width: 100%;
+    padding-bottom: 30px;
+  }
+  .events_block_list_and_img{
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+  }
+  .events_block_list_and_img_top{
+    border-radius: 0px 0px 0 0;
+    border-top: 0px solid rgba(105, 178, 51, 0.40);
+    border-bottom: 2px solid rgba(105, 178, 51, 0.40);
+    background: var(--Color, #FFF);
+
+  }
+  .events_block_list_and_img_bottom{
+    border-radius: 10px;
+    border-bottom: 0px solid rgba(105, 178, 51, 0.40);
+    background: var(--Color, #FFF);
+  }
+  .events_block_img{
+    padding: 0;
+  }
+  .events_block_img_top{
+    margin-bottom: 60px;
+  }
+  .events_block_img_bottom{
+    margin-top: 60px;
+  }
+
+  .events_li{
+    @include paragraph_font;
+    max-width: 600px;
+    list-style-type: revert;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 768px) {
+  
+}
+@media (max-width: 480px) {
+  
+}
+@media (max-width: 300px) {
+  
+}
